@@ -32,7 +32,7 @@ The services folder includes:
   6. Validates the key against the rate limit rule.
   7. Returns `true` if the key is valid; `false` otherwise.
 
-  This folder also contains the **EmailService** file, responsible for sending the emails. Note that this is not fully set up, as it was not the focus of this project.
+  This folder also contains the **EmailService** file, responsible for sending the emails. The service is called only when the notificationService returns true.
 
 ### `app.ts`
 
