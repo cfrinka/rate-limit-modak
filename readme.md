@@ -1,6 +1,9 @@
 # Notification Rate Limitation
 
-This document provides an overview of the implemented rate limitation for the notification service. The goal is to restrict the number of email messages each user can receive based on the type of notification. The project structure is as follows:
+This document provides an overview of the implemented rate limitation for the notification service. The goal is to restrict the number of email messages each user can receive based on the type of notification.
+
+## Stack
+This project uses NodeJS, Redis and Express
 
 ## Project Structure
 
