@@ -17,9 +17,8 @@ app.post("/notify", async (req, res) => {
   const canSend = await NotificationService.canSendNotification(email, type);
   if (canSend) {
     const emailSent = await sendEmail(email, type, message);
-    const emailSent2 = true;
 
-    if (emailSent2) {
+    if (emailSent) {
       res.status(200).json({
         message: "Notification sent, the user will be informed. Have a cookie!",
       });
